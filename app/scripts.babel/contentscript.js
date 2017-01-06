@@ -1,3 +1,5 @@
 'use strict';
 
-console.log('\'Allo \'Allo! Content script');
+console.log('prettify w3c docs chrome extension works');
+
+document.getElementsByTagName('body')[0].classList.add('prettify-w3c');

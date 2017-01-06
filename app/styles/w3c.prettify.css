@@ -1,0 +1,14 @@
+body.prettify-w3c {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', 'Lucida Grande';
+    line-height: 1.6;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+@media (min-width: 1900px) {
+    body.prettify-w3c {
+        padding-left: 25em;
+        padding-right: 25em;
+    }
+}

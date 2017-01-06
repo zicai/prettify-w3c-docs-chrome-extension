@@ -26,11 +26,13 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "https://www.w3.org/TR/*"
       ],
       "js": [
         "scripts/contentscript.js"
+      ],
+      "css":[
+        "styles/w3c.prettify.css"
       ],
       "run_at": "document_end",
       "all_frames": false
